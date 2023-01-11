@@ -8,17 +8,12 @@ jobs:
   lint-and-build:
     name: Lint & build
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js 16.x
         uses: actions/setup-node@v1
         with:
           node-version: 16.x
-          registry-url: https://npm.pkg.github.com
-          scope: '@lickdltd'
       - name: install decentraland
         run: npm i -g decentraland@latest
       - name: install dependencies
