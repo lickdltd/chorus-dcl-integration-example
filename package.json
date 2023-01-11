@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@dcl/ecs-scene-utils": "^1.7.5",
-    "@lickdltd/chorus-dcl": "^0.1.1"
+    "@lickdltd/chorus-dcl": "^0.2.0"
   },
   "bundleDependencies": [
     "@dcl/ecs-scene-utils",
