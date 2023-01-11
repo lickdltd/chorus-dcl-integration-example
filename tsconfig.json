@@ -3,12 +3,15 @@
     "outFile": "./bin/game.js",
     "allowJs": true,
     "strict": true,
+    "baseUrl": ".",
     "paths": {
+      "@lickdltd/chorus-dcl": [
+        "node_modules/@lickdltd/chorus-dcl/dist/index.d.ts"
+      ],
       "@dcl/ecs-scene-utils": [
         "node_modules/@dcl/ecs-scene-utils/dist/index.d.ts"
       ]
-    },
-    "baseUrl": "."
+    }
   },
   "include": [
     "src/**/*.ts"
