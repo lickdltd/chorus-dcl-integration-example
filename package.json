@@ -22,9 +22,9 @@
     "yarn": "please use npm"
   },
   "dependencies": {
-    "@dcl/ecs-scene-utils": "^1.7.5"
+    "@lickdltd/chorus-dcl": "0.1.0"
   },
   "bundleDependencies": [
-    "@dcl/ecs-scene-utils"
+    "@lickdltd/chorus-dcl"
   ]
 }
