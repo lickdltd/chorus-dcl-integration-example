@@ -1,3 +1,8 @@
+> ⚠️ **Warning!**
+> 
+> This repo is now deprecated/archived.  
+> Please see [chorus-dcl](https://github.com/lickdltd/chorus-dcl) for Chorus integration in Decentraland.
+
 # Decentraland scene
 
 This folder contains all the necessary files to launch a Decentraland scene.
